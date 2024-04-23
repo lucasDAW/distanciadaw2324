@@ -14,8 +14,8 @@
 * @param float $numero2 segundo numero para sumar
 * @return float devuelve la suma de la suma de los números
 */
-function suma($numero1,$numero2){
-	return $numero1+$numero2;
+function suma($n1,$n2){
+	return $n1+$n2;
 }
 
 /**
