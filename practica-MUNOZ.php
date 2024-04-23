@@ -14,10 +14,19 @@
 * @param float $numero2 segundo numero para sumar
 * @return float devuelve la suma de la suma de los números
 */
-function suma($numero1,$numero2){
-	return $numero1+$numero2;
+function suma($n1,$n2){
+	return $n1+$n2;
 }
 
+/**
+* Funcion que multiplica dos números y devuelve el resultado
+* @param float $numero1 primer numero para multipicar
+* @param float $numero2 segundo numero para multipicar
+* @return float devuelve la multipicar de la multipicar de los números
+*/
+function multipicar($numero1,$numero2){
+	return $numero1*$numero2;
+}
 /**
 * Funcion que muestra un saludo con el nombre introducido
 * @param string $nombre nombre introducido
